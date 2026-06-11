@@ -12,7 +12,7 @@ class InventoryPage(BasePage):
     INVENTORY_ITEMS = (By.CLASS_NAME, 'inventory_item')
     ITEM_NAME = (By.CLASS_NAME, 'inventory_item_name')
     ITEM_PRICE = (By.CLASS_NAME, 'inventory_item_price')
-    ADD_TO_CART_BUTTON = (By.NAME, 'add-to-cart')
+    ADD_TO_CART_BUTTON = (By.CSS_SELECTOR, 'button[id^="add-to-cart"]')
     CART_LINK = (By.CLASS_NAME, 'shopping_cart_link')
     CART_BADGE = (By.CLASS_NAME, 'shopping_cart_badge')
     
