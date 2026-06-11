@@ -1,0 +1,114 @@
+2026-06-11 09:56:41 - conftest - INFO - Starting pytest execution
+2026-06-11 09:56:41 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:56:41 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:56:48 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:56:50 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:56:50 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:56:52 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:56:55 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:56:55 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:56:57 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:56:59 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:56:59 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:57:02 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:57:04 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:57:04 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:57:19 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:57:21 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:57:21 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:57:24 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:57:26 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:57:26 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:57:29 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:57:31 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:57:31 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:57:34 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:57:36 - conftest - INFO - Completed pytest execution
+2026-06-11 09:58:30 - conftest - INFO - Starting pytest execution
+2026-06-11 09:58:30 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:58:30 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:58:33 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:58:35 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:58:35 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:58:38 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:58:40 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:58:40 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:58:43 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:58:45 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:58:45 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:58:48 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:58:50 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:58:50 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:58:53 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:58:55 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:58:55 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:58:58 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:59:00 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:59:00 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:59:02 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:59:05 - conftest - INFO - Creating WebDriver instance
+2026-06-11 09:59:05 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 09:59:36 - conftest - INFO - Closing WebDriver instance
+2026-06-11 09:59:38 - conftest - INFO - Completed pytest execution
+2026-06-11 10:02:11 - conftest - INFO - Starting pytest execution
+2026-06-11 10:02:12 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:02:12 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:02:18 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:02:20 - conftest - INFO - Completed pytest execution
+2026-06-11 10:02:59 - conftest - INFO - Starting pytest execution
+2026-06-11 10:02:59 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:02:59 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:03:06 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:03:08 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:03:08 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:03:15 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:03:17 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:03:17 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:03:24 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:03:26 - conftest - INFO - Completed pytest execution
+2026-06-11 10:03:34 - conftest - INFO - Starting pytest execution
+2026-06-11 10:03:34 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:03:34 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:03:39 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:03:41 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:03:41 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:03:47 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:03:49 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:03:49 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:03:56 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:03:58 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:03:58 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:04:03 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:04:06 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:04:06 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:04:23 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:04:25 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:04:25 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:04:31 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:04:34 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:04:34 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:04:40 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:04:42 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:04:42 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:04:49 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:04:51 - conftest - INFO - Completed pytest execution
+2026-06-11 10:05:53 - conftest - INFO - Starting pytest execution
+2026-06-11 10:05:53 - conftest - INFO - Creating WebDriver instance
+2026-06-11 10:05:53 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:06:02 - conftest - INFO - Closing WebDriver instance
+2026-06-11 10:06:04 - conftest - INFO - Completed pytest execution
+2026-06-11 10:10:06 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-11 10:10:07 - pages.base_page - INFO - Opening URL: https://www.saucedemo.com
+2026-06-11 10:10:08 - pages.base_page - INFO - Logging in with username: standard_user
+2026-06-11 10:10:08 - pages.base_page - INFO - Typing text in element: ('id', 'user-name')
+2026-06-11 10:10:08 - pages.base_page - INFO - Waiting for element: ('id', 'user-name')
+2026-06-11 10:10:08 - pages.base_page - INFO - Typing text in element: ('id', 'password')
+2026-06-11 10:10:08 - pages.base_page - INFO - Waiting for element: ('id', 'password')
+2026-06-11 10:10:08 - pages.base_page - INFO - Clicking element: ('id', 'login-button')
+2026-06-11 10:10:08 - pages.base_page - INFO - Waiting for element: ('id', 'login-button')
+2026-06-11 10:10:19 - pages.base_page - INFO - Pressed Escape to dismiss dialog
+2026-06-11 10:10:32 - pages.base_page - INFO - Pressed Escape to dismiss dialog
+2026-06-11 10:10:34 - pages.base_page - INFO - Clicking element: ('class name', 'shopping_cart_link')
+2026-06-11 10:10:34 - pages.base_page - INFO - Waiting for element: ('class name', 'shopping_cart_link')
+2026-06-11 10:10:34 - pages.base_page - INFO - Opened cart page
+2026-06-11 10:10:45 - pages.base_page - INFO - Pressed Escape to dismiss dialog

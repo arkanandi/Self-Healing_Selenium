@@ -6,7 +6,7 @@ from utils.screenshot import Screenshot
 from utils.logger import Logger
 
 
-logger = Logger(__name__).get_logger()
+logger = Logger.get_logger(__name__)
 
 
 @pytest.fixture(scope='function')
@@ -26,12 +26,17 @@ def screenshot_on_failure(request, driver):
     """Automatically take screenshot on test failure"""
     yield
     
-    # If test failed, take screenshot
-    if request.node.rep_call.failed:
-        test_name = request.node.name
-        screenshot_name = f"failure_{test_name}.png"
-        Screenshot.take_screenshot(driver, screenshot_name)
-        logger.info(f"Screenshot taken for failed test: {test_name}")
+    # Safely check if test failed
+    try:
+        if hasattr(request, 'node') and hasattr(request.node, 'rep_call'):
+            if request.node.rep_call is not None and hasattr(request.node.rep_call, 'failed'):
+                if request.node.rep_call.failed:
+                    test_name = request.node.name
+                    screenshot_name = f"failure_{test_name}.png"
+                    Screenshot.take_screenshot(driver, screenshot_name)
+                    logger.info(f"Screenshot taken for failed test: {test_name}")
+    except Exception as e:
+        pass  # Silently ignore screenshot errors
 
 
 def pytest_configure(config):

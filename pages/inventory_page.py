@@ -1,7 +1,7 @@
 """Inventory page object"""
 
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
+from .base_page import BasePage
 
 
 class InventoryPage(BasePage):
@@ -13,6 +13,7 @@ class InventoryPage(BasePage):
     ITEM_NAME = (By.CLASS_NAME, 'inventory_item_name')
     ITEM_PRICE = (By.CLASS_NAME, 'inventory_item_price')
     ADD_TO_CART_BUTTON = (By.NAME, 'add-to-cart')
+    CART_LINK = (By.CLASS_NAME, 'shopping_cart_link')
     CART_BADGE = (By.CLASS_NAME, 'shopping_cart_badge')
     
     def __init__(self, driver):
@@ -35,6 +36,11 @@ class InventoryPage(BasePage):
             # Click add to cart button within the item
             items[item_index].find_element(*self.ADD_TO_CART_BUTTON).click()
             self.logger.info(f"Added item at index {item_index} to cart")
+    
+    def open_cart(self):
+        """Open the shopping cart page"""
+        self.click_element(self.CART_LINK)
+        self.logger.info("Opened cart page")
     
     def get_cart_count(self):
         """Get items in cart count"""

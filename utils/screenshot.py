@@ -9,7 +9,7 @@ from utils.logger import Logger
 class Screenshot:
     """Screenshot utility class"""
     
-    logger = Logger(__name__).get_logger()
+    logger = Logger.get_logger(__name__)
     
     @staticmethod
     def take_screenshot(driver, filename=None):

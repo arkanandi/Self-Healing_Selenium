@@ -12,7 +12,7 @@ class HealingDriver:
     
     def __init__(self, driver):
         self.driver = driver
-        self.logger = Logger(__name__).get_logger()
+        self.logger = Logger.get_logger(__name__)
         self.locator_history = {}
     
     def find_element(self, locator):

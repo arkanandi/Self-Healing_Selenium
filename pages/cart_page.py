@@ -1,7 +1,7 @@
 """Cart page object"""
 
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
+from .base_page import BasePage
 
 
 class CartPage(BasePage):
@@ -14,6 +14,7 @@ class CartPage(BasePage):
     REMOVE_BUTTON = (By.NAME, 'remove')
     CONTINUE_SHOPPING = (By.ID, 'continue-shopping')
     CHECKOUT_BUTTON = (By.ID, 'checkout')
+    CART_EMPTY_MESSAGE = (By.CLASS_NAME, 'cart_empty')
     
     def __init__(self, driver):
         super().__init__(driver)

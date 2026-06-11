@@ -1,7 +1,7 @@
 """Checkout page object"""
 
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
+from .base_page import BasePage
 
 
 class CheckoutPage(BasePage):
@@ -36,6 +36,12 @@ class CheckoutPage(BasePage):
         """Click finish button to complete checkout"""
         self.click_element(self.FINISH_BUTTON)
         self.logger.info("Finished checkout")
+    
+    def complete_checkout(self, first_name, last_name, postal_code):
+        """Complete the full checkout flow"""
+        self.fill_checkout_info(first_name, last_name, postal_code)
+        self.continue_to_overview()
+        self.finish_checkout()
     
     def cancel_checkout(self):
         """Click cancel button"""
