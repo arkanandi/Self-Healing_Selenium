@@ -164,3 +164,18 @@
 2026-06-11 12:23:58 - utils.driver_factory - INFO - Creating Chrome WebDriver
 2026-06-11 12:24:17 - conftest - INFO - Closing WebDriver instance
 2026-06-11 12:24:23 - conftest - INFO - Completed pytest execution
+2026-06-16 15:30:06 - utils.driver_factory - INFO - Creating Chrome WebDriver
+2026-06-16 15:30:15 - pages.base_page - INFO - Opening URL: https://www.saucedemo.com
+2026-06-16 15:30:17 - pages.base_page - INFO - Logging in with username: standard_user
+2026-06-16 15:30:17 - pages.base_page - INFO - Typing text in element: ('id', 'user-name')
+2026-06-16 15:30:17 - pages.base_page - INFO - Waiting for element: ('id', 'user-name')
+2026-06-16 15:30:17 - pages.base_page - INFO - Typing text in element: ('id', 'password')
+2026-06-16 15:30:17 - pages.base_page - INFO - Waiting for element: ('id', 'password')
+2026-06-16 15:30:18 - pages.base_page - INFO - Clicking element: ('id', 'login-button')
+2026-06-16 15:30:18 - pages.base_page - INFO - Waiting for element: ('id', 'login-button')
+2026-06-16 15:30:28 - pages.base_page - INFO - Pressed Escape to dismiss dialog
+2026-06-16 15:30:41 - pages.base_page - INFO - Pressed Escape to dismiss dialog
+2026-06-16 15:30:43 - pages.base_page - INFO - Clicking element: ('class name', 'shopping_cart_link')
+2026-06-16 15:30:43 - pages.base_page - INFO - Waiting for element: ('class name', 'shopping_cart_link')
+2026-06-16 15:30:43 - pages.base_page - INFO - Opened cart page
+2026-06-16 15:30:55 - pages.base_page - INFO - Pressed Escape to dismiss dialog
